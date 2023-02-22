@@ -19,7 +19,6 @@ export class PostListComponentComponent implements OnInit {
   ngOnInit() {
   }
 
-
   onValiderPost() {
     const post = new Post();
     post.title = this.title;
